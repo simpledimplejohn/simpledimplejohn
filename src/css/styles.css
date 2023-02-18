@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: white;
@@ -9,4 +15,11 @@ body {
 h1 {
   color: rgb(255, 213, 0);
 font-style: italic;
+}
+
+.main-box {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  outline: 1px solid white;
 }
