@@ -3,6 +3,9 @@
   --clr-primary-light: white;
 
   --clr-accent: rgb(255, 85, 0);
+
+  --ff-primary: "Roboto", sans-serif;
+  --ff-accent: "Playfair Display", serif;
 }
 
 *,
@@ -15,13 +18,13 @@ body {
   background-color: var(--clr-primary-dark);
   color: var(--clr-primary-light);
   font-size: 1.25 rem;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: var(--ff-primary);
   text-align: center;
 }
 
 h1 {
   color: var(--clr-accent);
-font-style: italic;
+  font-style: var(--ff-primary);
 }
 
 .main-box {
