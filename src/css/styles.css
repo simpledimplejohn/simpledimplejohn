@@ -52,7 +52,36 @@ img {
   display: block;
   max-width: 100%;
 }
+/* utility class for centering text */
+.text-center {
+  text-align: center;
+}
 
+header,
+section {
+  /* is this a padding range?? */
+  padding: 4rem 0;
+  @media (min-width: 40em) {
+    header,
+    section {
+      padding: 7rem 0;
+    }
+  }
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+/* setting media query results for screen size */
+
+/* my css */
 .main-box {
   width: min(600px,800px);
   margin: 10px;
