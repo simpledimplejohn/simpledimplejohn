@@ -80,6 +80,25 @@ section {
 }
 
 /* setting media query results for screen size */
+@meida (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+  .split > * + * {
+    margin-left: 2em;
+  }
+}
+
+.container--narrow {
+  max-width: 34rem;
+}
+
+.container--narrow {
+  max-width: 34rem;
+}
 
 /* my css */
 .main-box {
