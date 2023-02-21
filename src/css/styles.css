@@ -1,3 +1,4 @@
+/* sets the root level colors and fonts */
 :root {
   --clr-primary-dark: black;
   --clr-primary-light: white;
@@ -7,7 +8,7 @@
   --ff-primary: "Roboto", sans-serif;
   --ff-accent: "Playfair Display", serif;
 }
-
+/* this applies border-box to everything  */
 *,
 *::before,
 *::after {
@@ -18,13 +19,38 @@ body {
   background-color: var(--clr-primary-dark);
   color: var(--clr-primary-light);
   font-size: 1.25 rem;
+  line-height: 1.6;
   font-family: var(--ff-primary);
   text-align: center;
 }
 
-h1 {
+/* sets margins for the project */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+/* settings for header text */
+h1,
+h2,
+h3 {
   color: var(--clr-accent);
   font-style: var(--ff-primary);
+  font-weight: 900;
+  line-height: 1;
+}
+/* a default for some padding on the bottom */
+h2,
+h3,
+p {
+  margin-bottom: 1em;
+}
+/* image settings */
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .main-box {
