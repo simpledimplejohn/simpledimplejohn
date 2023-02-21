@@ -1,3 +1,10 @@
+:root {
+  --clr-primary-dark: black;
+  --clr-primary-light: white;
+
+  --clr-accent: rgb(255, 85, 0);
+}
+
 *,
 *::before,
 *::after {
@@ -5,21 +12,26 @@
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-primary-light);
   font-size: 1.25 rem;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 h1 {
-  color: rgb(255, 213, 0);
+  color: var(--clr-accent);
 font-style: italic;
 }
 
 .main-box {
+  width: min(600px,800px);
   margin: 10px;
   padding: 10px;
-  border: 1px solid white;
-  outline: 1px solid white;
+  border: 10px ;
+  outline: 1px solid --clr-primary-light;
+}
+
+src {
+  outline: 10px solid --clr-accent;
 }
