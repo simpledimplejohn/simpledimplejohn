@@ -1,6 +1,14 @@
 # SimpleDimpleJohn Website
-This is my personal portfolio site that will feature mostly image content in gallery format.
+Exploring differen approaches to full stack web develompment.
 
-## Working With CSS
-I am learning css and React front end UX design.
+## Java
+Spring Boot
+## C#
+ASP.Net Core
+## Node js
+Express
+React
+Angular
+
+
 
