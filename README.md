@@ -1,14 +1,24 @@
 # SimpleDimpleJohn 
-Exploring differen approaches to full stack web develompment.
+Exploring different approaches to full stack web develompment.
 
-## Java
-Spring Boot
-## C#
-ASP.Net Core
-## Node js
-Express
-React
-Angular
-
-
-
+## Front End
+- Angular
+- React
+- Javascript
+- HTML
+- CSS
+## Back End
+- Java Spring Boot
+- Node js 
+## Databases
+- Postgres
+- MySQL
+- DynamoDB
+- SnowFlake
+- MongoDB
+- JDBC
+## Testing
+- Jest
+- Junit
+- MSTest
+- Python Test
