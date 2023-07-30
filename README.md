@@ -1,4 +1,4 @@
-# SimpleDimpleJohn Website
+# SimpleDimpleJohn 
 Exploring differen approaches to full stack web develompment.
 
 ## Java
