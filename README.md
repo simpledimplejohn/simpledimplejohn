@@ -1,5 +1,12 @@
 # SimpleDimpleJohn 
-Exploring different approaches to full stack web develompment.
+Splunk Administrator, APM, with Full Stack experience.
+
+## APM
+- Splunk Admin
+- New Relic
+- Observer
+- Data Dog
+- AWS Cloudwatch
 
 ## Front End
 - Angular
