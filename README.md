@@ -1,7 +1,10 @@
 # SimpleDimpleJohn 
-Splunk Administrator, APM, with Full Stack experience.
+Grafana ecosystem
 
 ## APM
+- Grafana
+- Prometheus
+- Loki
 - Splunk Admin
 - New Relic
 - Observer
@@ -15,12 +18,13 @@ Splunk Administrator, APM, with Full Stack experience.
 - HTML
 - CSS
 ## Back End
+- Flask/Django
 - Java Spring Boot
 - Node js 
 ## Databases
-- Postgres
-- MySQL
-- DynamoDB
+- Loki
+- Prometheus
+- MSSQL
 - SnowFlake
 - MongoDB
 - JDBC
